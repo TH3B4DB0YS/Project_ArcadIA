@@ -1,2 +1,25 @@
 # Project_ArcadIA
 Project arcad AI
+
+
+les 5 jeux choisis en orienté object:
+-demineur (code dans le cours)
+-snake ( code a modifier en OO)
+-mastermind (code dans le cours)
+-tiktac boom ( a faire complet)
+-pendu
+
+language choisi Winform :
+
+page de login nom user ( ex: nom github )
+-page 2 affichage de jeux par rapport au lv du compte de base un jeux présent
+
+gestion du lvl : ( progress bar en winform pour afficher lavancement de XP)
+
+-snake ( nb de pomme manger convertir en xp)
+
+mastermind ( nombre de code couleur trouver )
+
+tic tac boom ( nombre de mots trouvé)
+
+pendu (idem que tic tac boom)
