@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tristan\\source\\repos\\laboprogarcadeIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj",
+      "projectUniqueName": "C:\\Users\\tristan\\source\\repos\\TH3B4DB0YS\\Project_ArcadIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj",
       "projectName": "laboprogarcadeIA",
-      "projectPath": "C:\\Users\\tristan\\source\\repos\\laboprogarcadeIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj",
+      "projectPath": "C:\\Users\\tristan\\source\\repos\\TH3B4DB0YS\\Project_ArcadIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj",
       "packagesPath": "C:\\Users\\tristan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tristan\\source\\repos\\laboprogarcadeIA\\laboprogarcadeIA\\obj\\",
+      "outputPath": "C:\\Users\\tristan\\source\\repos\\TH3B4DB0YS\\Project_ArcadIA\\laboprogarcadeIA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -81,6 +81,7 @@
       },
       "frameworks": {
         "net10.0-windows7.0": {
+          "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {}
         }
@@ -99,6 +100,7 @@
     },
     "frameworks": {
       "net10.0-windows7.0": {
+        "framework": "net10.0-windows7.0",
         "targetAlias": "net10.0-windows",
         "dependencies": {
           "CsvHelper": {
@@ -125,7 +127,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

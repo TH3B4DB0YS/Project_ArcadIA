@@ -1,33 +1,43 @@
-using System.Xml.Serialization;
-using System.IO;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
+using System;
+using System.Windows.Forms;
 
 namespace laboprogarcadeIA
 {
     public partial class Form1 : Form
     {
+        private GameDatabase database;
+        private Player currentPlayer;
+
         public Form1()
         {
             InitializeComponent();
+            database = new GameDatabase();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string text = textBox1.Text;
-            foreach (var user in )
-            {
-                
+            string gameID = textBox1.Text.Trim();
 
+            if (string.IsNullOrEmpty(gameID))
+            {
+                MessageBox.Show("Veuillez entrer un ID de jeu valide.", "Erreur");
+                return;
             }
 
+            currentPlayer = database.GetOrCreatePlayer(gameID);
             
+            MessageBox.Show(
+                $"Bienvenue {gameID}!\n" +
+                $"Niveau: {currentPlayer.Level}\n" +
+                $"Jeux débloqués: {currentPlayer.UnlockedGames}\n" +
+                $"Prochaine déverrouillage à {(currentPlayer.UnlockedGames + 1) * 15} XP",
+                "Profil Joueur"
+            );
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
-            string text = textBox1.Text;
-
+            // Vous pouvez ajouter une validation en temps réel ici si souhaité
         }
     }
 }
