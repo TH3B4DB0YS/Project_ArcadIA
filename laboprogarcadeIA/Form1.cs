@@ -14,7 +14,7 @@ namespace laboprogarcadeIA
             database = new GameDatabase();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Gamechoise_Click(object sender, EventArgs e)
         {
             string gameID = textBox1.Text.Trim();
 
@@ -29,9 +29,11 @@ namespace laboprogarcadeIA
             MessageBox.Show(
                 $"Bienvenue {gameID}!\n" +
                 $"Niveau: {currentPlayer.Level}\n" +
-                $"Jeux débloqués: {currentPlayer.UnlockedGames}\n" +
-                $"Prochaine déverrouillage à {(currentPlayer.UnlockedGames + 1) * 15} XP",
-                "Profil Joueur"
+                $"Jeux débloqués: {currentPlayer.UnlockedGames}/5\n "+
+                $"Prochaine déverrouillage à {(currentPlayer.UnlockedGames + 1) * currentPlayer.Level+5} LVL",
+                "Profil Joueur",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Warning
             );
         }
 
