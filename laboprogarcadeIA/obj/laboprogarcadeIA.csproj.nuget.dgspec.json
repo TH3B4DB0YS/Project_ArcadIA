@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tristan\\source\\repos\\TH3B4DB0YS\\Project_ArcadIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj": {}
+    "C:\\Users\\burla\\source\\repos\\Project_ArcadIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tristan\\source\\repos\\TH3B4DB0YS\\Project_ArcadIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj": {
+    "C:\\Users\\burla\\source\\repos\\Project_ArcadIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tristan\\source\\repos\\TH3B4DB0YS\\Project_ArcadIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj",
+        "projectUniqueName": "C:\\Users\\burla\\source\\repos\\Project_ArcadIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj",
         "projectName": "laboprogarcadeIA",
-        "projectPath": "C:\\Users\\tristan\\source\\repos\\TH3B4DB0YS\\Project_ArcadIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj",
-        "packagesPath": "C:\\Users\\tristan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tristan\\source\\repos\\TH3B4DB0YS\\Project_ArcadIA\\laboprogarcadeIA\\obj\\",
+        "projectPath": "C:\\Users\\burla\\source\\repos\\Project_ArcadIA\\laboprogarcadeIA\\laboprogarcadeIA.csproj",
+        "packagesPath": "C:\\Users\\burla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\burla\\source\\repos\\Project_ArcadIA\\laboprogarcadeIA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tristan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\burla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
