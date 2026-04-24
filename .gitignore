@@ -1,0 +1,15 @@
+# Visual Studio / .NET
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+.vs/
+
+# Fichiers de build
+*.dll
+*.exe
+*.pdb
+
+# Base de données locale
+players_database.xml
