@@ -53,6 +53,15 @@ namespace laboprogarcadeIA
                  MessageBoxButtons.OK,
                  MessageBoxIcon.Information
             );
+
+            // Lancement du Pendu
+            this.Hide(); // On cache le menu principal
+
+            PenduGame pendu = new PenduGame();
+            pendu.StartGame(currentPlayer); // On passe le joueur actuel au jeu
+            pendu.Launch(); // On ouvre la fenêtre du jeu
+
+            this.Show(); // On réaffiche le menu principal quand le jeu est fini
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
