@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("laboprogarcadeIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2942ee5bcf2357d7b4bc2f4b212566eae42056f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ab9a693b2dbad5b4abc8434e3d93b481330a0e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("laboprogarcadeIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("laboprogarcadeIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
