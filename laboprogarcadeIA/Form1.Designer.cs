@@ -61,25 +61,28 @@ namespace laboprogarcadeIA
             // labelLogin
             // 
             labelLogin.AutoSize = true;
-            labelLogin.Location = new Point(297, 180);
+            labelLogin.Location = new Point(160, 84);
+            labelLogin.Margin = new Padding(2, 0, 2, 0);
             labelLogin.Name = "labelLogin";
-            labelLogin.Size = new Size(200, 32);
+            labelLogin.Size = new Size(103, 15);
             labelLogin.TabIndex = 4;
             labelLogin.Text = "Entrez votre nom :";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(297, 219);
+            textBox1.Location = new Point(160, 103);
+            textBox1.Margin = new Padding(2, 1, 2, 1);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(200, 39);
+            textBox1.Size = new Size(110, 23);
             textBox1.TabIndex = 2;
             textBox1.TextChanged += textBox1_TextChanged_1;
             // 
             // button1
             // 
-            button1.Location = new Point(316, 324);
+            button1.Location = new Point(124, 128);
+            button1.Margin = new Padding(2, 1, 2, 1);
             button1.Name = "button1";
-            button1.Size = new Size(150, 46);
+            button1.Size = new Size(179, 22);
             button1.TabIndex = 3;
             button1.Text = "Se connecter";
             button1.UseVisualStyleBackColor = true;
@@ -87,12 +90,13 @@ namespace laboprogarcadeIA
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(431, 211);
             Controls.Add(labelLogin);
             Controls.Add(button1);
             Controls.Add(textBox1);
+            Margin = new Padding(2, 1, 2, 1);
             Name = "Form1";
             Text = "ArcadIA";
             ResumeLayout(false);
@@ -104,5 +108,10 @@ namespace laboprogarcadeIA
         private Label labelLogin;
         private TextBox textBox1;
         private Button button1;
+        private Button btnGame1;
+        private Button btnGame2;
+        private Button btnGame3;
+        private Button btnGame4;
+        private Button btnGame5;
     }
 }

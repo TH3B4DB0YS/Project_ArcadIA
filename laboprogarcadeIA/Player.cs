@@ -33,7 +33,6 @@ namespace laboprogarcadeIA
         {
             GameID = gameID;
             Level = level;
-            // 1 jeu débloqué tous les 15 niveaux (cohérent avec GameDatabase)
             UnlockedGames = Level / 15;
         }
 
@@ -42,7 +41,6 @@ namespace laboprogarcadeIA
             if (Level < 100)
             {
                 Level += amount;
-                // Recalcul des jeux débloqués après montée de niveau
                 UnlockedGames = Level / 15;
             }
             else
@@ -50,11 +48,7 @@ namespace laboprogarcadeIA
                 LevelMaximum();
             }
         }
-        public void NextGame()
-        {
-            NbGames = UnlockedGames;
-
-        }
+       
         public void Reset()
         {
             Level = 0;
@@ -64,6 +58,13 @@ namespace laboprogarcadeIA
         public void LevelMaximum()
         {
             Level = 100;
+        }
+        public void UpdateUnlockedGames()
+        {
+         
+            this.UnlockedGames = 1 + (this.Level / 15);
+
+            if (this.UnlockedGames > 5) this.UnlockedGames = 5;
         }
     }
 }
